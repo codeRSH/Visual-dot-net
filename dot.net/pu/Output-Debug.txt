@@ -1,0 +1,53 @@
+Warning: Cannot debug script code. Script debugging is disabled for the application you are debugging. Please uncheck the 'Disable script debugging' option on the Internet Options dialog box (Advanced page) for Internet Explorer and restart the process.
+'WebDev.WebServer.EXE' (Managed): Loaded 'C:\WINDOWS\assembly\GAC_32\mscorlib\2.0.0.0__b77a5c561934e089\mscorlib.dll', Skipped loading symbols. Module is optimized and the debugger option 'Just My Code' is enabled.
+'WebDev.WebServer.EXE' (Managed): Loaded 'C:\WINDOWS\Microsoft.NET\Framework\v2.0.50727\WebDev.WebServer.EXE', Skipped loading symbols. Module is optimized and the debugger option 'Just My Code' is enabled.
+'WebDev.WebServer.EXE' (Managed): Loaded 'C:\WINDOWS\assembly\GAC_32\WebDev.WebHost\8.0.0.0__b03f5f7f11d50a3a\WebDev.WebHost.dll', Skipped loading symbols. Module is optimized and the debugger option 'Just My Code' is enabled.
+'WebDev.WebServer.EXE' (Managed): Loaded 'C:\WINDOWS\assembly\GAC_MSIL\System.Windows.Forms\2.0.0.0__b77a5c561934e089\System.Windows.Forms.dll', Skipped loading symbols. Module is optimized and the debugger option 'Just My Code' is enabled.
+'WebDev.WebServer.EXE' (Managed): Loaded 'C:\WINDOWS\assembly\GAC_MSIL\System\2.0.0.0__b77a5c561934e089\System.dll', Skipped loading symbols. Module is optimized and the debugger option 'Just My Code' is enabled.
+'WebDev.WebServer.EXE' (Managed): Loaded 'C:\WINDOWS\assembly\GAC_MSIL\System.Drawing\2.0.0.0__b03f5f7f11d50a3a\System.Drawing.dll', Skipped loading symbols. Module is optimized and the debugger option 'Just My Code' is enabled.
+'WebDev.WebServer.EXE' (Managed): Loaded 'C:\WINDOWS\assembly\GAC_32\System.Web\2.0.0.0__b03f5f7f11d50a3a\System.Web.dll', Skipped loading symbols. Module is optimized and the debugger option 'Just My Code' is enabled.
+'WebDev.WebServer.EXE' (Managed): Loaded 'C:\WINDOWS\assembly\GAC_MSIL\System.Configuration\2.0.0.0__b03f5f7f11d50a3a\System.Configuration.dll', Skipped loading symbols. Module is optimized and the debugger option 'Just My Code' is enabled.
+'WebDev.WebServer.EXE' (Managed): Loaded 'C:\WINDOWS\assembly\GAC_MSIL\System.Xml\2.0.0.0__b77a5c561934e089\System.Xml.dll', Skipped loading symbols. Module is optimized and the debugger option 'Just My Code' is enabled.
+'WebDev.WebServer.EXE' (Managed): Loaded 'C:\WINDOWS\assembly\GAC_MSIL\Microsoft.JScript\8.0.0.0__b03f5f7f11d50a3a\Microsoft.JScript.dll', No symbols loaded.
+'WebDev.WebServer.EXE' (Managed): Loaded 'C:\WINDOWS\assembly\GAC_32\VJSharpCodeProvider\2.0.0.0__b03f5f7f11d50a3a\VJSharpCodeProvider.dll', No symbols loaded.
+'WebDev.WebServer.EXE' (Managed): Loaded 'C:\WINDOWS\assembly\GAC_MSIL\CppCodeProvider\8.0.0.0__b03f5f7f11d50a3a\CppCodeProvider.dll', No symbols loaded.
+'WebDev.WebServer.EXE' (Managed): Loaded 'C:\WINDOWS\Microsoft.NET\Framework\v2.0.50727\Temporary ASP.NET Files\mygreatvision\9e944246\4e563d40\App_Code.gw3fwiho.dll', Symbols loaded.
+'WebDev.WebServer.EXE' (Managed): Loaded 'C:\WINDOWS\assembly\GAC_32\System.Data\2.0.0.0__b77a5c561934e089\System.Data.dll', No symbols loaded.
+'WebDev.WebServer.EXE' (Managed): Loaded 'C:\WINDOWS\Microsoft.NET\Framework\v2.0.50727\Temporary ASP.NET Files\mygreatvision\9e944246\4e563d40\App_global.asax.ngtwpt_a.dll', Symbols loaded.
+'WebDev.WebServer.EXE' (Managed): Loaded 'C:\WINDOWS\assembly\GAC_MSIL\System.Web.Mobile\2.0.0.0__b03f5f7f11d50a3a\System.Web.Mobile.dll', No symbols loaded.
+'WebDev.WebServer.EXE' (Managed): Loaded 'C:\WINDOWS\assembly\GAC_MSIL\System.Web.Extensions\1.0.61025.0__31bf3856ad364e35\System.Web.Extensions.dll', No symbols loaded.
+'WebDev.WebServer.EXE' (Managed): Loaded 'C:\WINDOWS\Microsoft.NET\Framework\v2.0.50727\Temporary ASP.NET Files\mygreatvision\9e944246\4e563d40\App_Web_vzj-j-2x.dll', Symbols loaded.
+'WebDev.WebServer.EXE' (Managed): Loaded 'C:\WINDOWS\assembly\GAC_MSIL\System.Web.RegularExpressions\2.0.0.0__b03f5f7f11d50a3a\System.Web.RegularExpressions.dll', No symbols loaded.
+'WebDev.WebServer.EXE' (Managed): Loaded 'C:\WINDOWS\Microsoft.NET\Framework\v2.0.50727\Temporary ASP.NET Files\mygreatvision\9e944246\4e563d40\App_Web_7dvev4uw.dll', Symbols loaded.
+'WebDev.WebServer.EXE' (Managed): Loaded 'C:\WINDOWS\Microsoft.NET\Framework\v2.0.50727\Temporary ASP.NET Files\mygreatvision\9e944246\4e563d40\App_Web_qpnfit1o.dll', Symbols loaded.
+'WebDev.WebServer.EXE' (Managed): Loaded 'C:\WINDOWS\assembly\GAC_32\System.Transactions\2.0.0.0__b77a5c561934e089\System.Transactions.dll', No symbols loaded.
+'WebDev.WebServer.EXE' (Managed): Loaded 'C:\WINDOWS\assembly\GAC_32\System.EnterpriseServices\2.0.0.0__b03f5f7f11d50a3a\System.EnterpriseServices.dll', No symbols loaded.
+'WebDev.WebServer.EXE' (Managed): Loaded 'C:\WINDOWS\assembly\GAC_MSIL\System.Web.Services\2.0.0.0__b03f5f7f11d50a3a\System.Web.Services.dll', No symbols loaded.
+'WebDev.WebServer.EXE' (Managed): Loaded 'C:\WINDOWS\assembly\GAC_MSIL\System.Design\2.0.0.0__b03f5f7f11d50a3a\System.Design.dll', No symbols loaded.
+'WebDev.WebServer.EXE' (Managed): Loaded 'A_2242bd75_a76d_4aa5_bf79_6ed1143fbee9', No symbols loaded.
+'WebDev.WebServer.EXE' (Managed): Loaded 'M_2242bd75_a76d_4aa5_bf79_6ed1143fbee9', No symbols loaded.
+'WebDev.WebServer.EXE' (Managed): Loaded 'C:\WINDOWS\Microsoft.NET\Framework\v2.0.50727\Temporary ASP.NET Files\mygreatvision\9e944246\4e563d40\App_Web_rtex9tk3.dll', Symbols loaded.
+'WebDev.WebServer.EXE' (Managed): Loaded 'C:\WINDOWS\Microsoft.NET\Framework\v2.0.50727\Temporary ASP.NET Files\mygreatvision\9e944246\4e563d40\App_Web_-ifz1wus.dll', Symbols loaded.
+'WebDev.WebServer.EXE' (Managed): Loaded 'C:\WINDOWS\Microsoft.NET\Framework\v2.0.50727\Temporary ASP.NET Files\mygreatvision\9e944246\4e563d40\App_Web_f0pkphki.dll', Symbols loaded.
+'WebDev.WebServer.EXE' (Managed): Loaded 'C:\WINDOWS\Microsoft.NET\Framework\v2.0.50727\Temporary ASP.NET Files\mygreatvision\9e944246\4e563d40\App_Web_vr8ypnwx.dll', Symbols loaded.
+'WebDev.WebServer.EXE' (Managed): Loaded 'C:\WINDOWS\Microsoft.NET\Framework\v2.0.50727\Temporary ASP.NET Files\mygreatvision\9e944246\4e563d40\App_Web_ifofv_p7.dll', Symbols loaded.
+'WebDev.WebServer.EXE' (Managed): Loaded 'C:\WINDOWS\Microsoft.NET\Framework\v2.0.50727\Temporary ASP.NET Files\mygreatvision\9e944246\4e563d40\App_Web_vozrhkor.dll', Symbols loaded.
+'WebDev.WebServer.EXE' (Managed): Loaded 'C:\WINDOWS\Microsoft.NET\Framework\v2.0.50727\Temporary ASP.NET Files\mygreatvision\9e944246\4e563d40\App_Web_7dqhxzgt.dll', Symbols loaded.
+'WebDev.WebServer.EXE' (Managed): Loaded 'C:\WINDOWS\Microsoft.NET\Framework\v2.0.50727\Temporary ASP.NET Files\mygreatvision\9e944246\4e563d40\App_Web_akaasnln.dll', Symbols loaded.
+'WebDev.WebServer.EXE' (Managed): Loaded 'C:\WINDOWS\Microsoft.NET\Framework\v2.0.50727\Temporary ASP.NET Files\mygreatvision\9e944246\4e563d40\App_Web__stkbxvc.dll', Symbols loaded.
+'WebDev.WebServer.EXE' (Managed): Loaded 'C:\WINDOWS\Microsoft.NET\Framework\v2.0.50727\Temporary ASP.NET Files\mygreatvision\9e944246\4e563d40\App_Web_k4vjbvbl.dll', Symbols loaded.
+'WebDev.WebServer.EXE' (Managed): Loaded 'C:\WINDOWS\Microsoft.NET\Framework\v2.0.50727\Temporary ASP.NET Files\mygreatvision\9e944246\4e563d40\App_Web_totmorae.dll', Symbols loaded.
+'WebDev.WebServer.EXE' (Managed): Loaded 'C:\WINDOWS\Microsoft.NET\Framework\v2.0.50727\Temporary ASP.NET Files\mygreatvision\9e944246\4e563d40\App_Web_yoa0wuhh.dll', Symbols loaded.
+'WebDev.WebServer.EXE' (Managed): Loaded 'C:\WINDOWS\Microsoft.NET\Framework\v2.0.50727\Temporary ASP.NET Files\mygreatvision\9e944246\4e563d40\App_Web_e0g1vofb.dll', Symbols loaded.
+'WebDev.WebServer.EXE' (Managed): Loaded 'C:\WINDOWS\Microsoft.NET\Framework\v2.0.50727\Temporary ASP.NET Files\mygreatvision\9e944246\4e563d40\App_Web_5pongieb.dll', Symbols loaded.
+A first chance exception of type 'System.Threading.ThreadAbortException' occurred in mscorlib.dll
+An exception of type 'System.Threading.ThreadAbortException' occurred in mscorlib.dll but was not handled in user code
+The thread '<No Name>' (0x86c) has exited with code 0 (0x0).
+A first chance exception of type 'System.Threading.ThreadAbortException' occurred in mscorlib.dll
+A first chance exception of type 'System.Threading.ThreadAbortException' occurred in App_Web_5pongieb.dll
+An exception of type 'System.Threading.ThreadAbortException' occurred in App_Web_5pongieb.dll but was not handled in user code
+A first chance exception of type 'System.Threading.ThreadAbortException' occurred in mscorlib.dll
+An exception of type 'System.Threading.ThreadAbortException' occurred in mscorlib.dll but was not handled in user code
+A first chance exception of type 'System.Threading.ThreadAbortException' occurred in mscorlib.dll
+An exception of type 'System.Threading.ThreadAbortException' occurred in mscorlib.dll but was not handled in user code
+The program '[4052] WebDev.WebServer.EXE: Managed' has exited with code 0 (0x0).

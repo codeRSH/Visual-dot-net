@@ -1,0 +1,101 @@
+<%@ master language="C#" autoeventwireup="true" inherits="MasterPageBusinessPlan, App_Web__u20twfm" %>
+
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+
+<html xmlns="http://www.w3.org/1999/xhtml" >
+<head id="Head1" runat="server">
+    <title>ZRox</title>
+    <link href="CSS/v4.css" type="text/css" rel="stylesheet" />
+    <link href="CSS/Ssheet.css" rel="stylesheet" type="text/css" />
+     <link href="CSS/css-content.css" type="text/css" rel="stylesheet" />
+    <link id="LinkCSS" runat="server" type="text/css" rel="stylesheet" />
+</head>
+<body>
+    <form id="form1" runat="server">
+    <asp:ScriptManager ID="ScriptManager1" runat="server" />
+    <table cellpadding="0" cellspacing="0" border="0" id="page" >
+	<tr><td><div id="main">
+		<div class="div2" style="margin-top:10px; background:#F1F1FE">
+			<div class="div2" style="width:10px;"><img src="Images/nl.gif" alt="" /></div>
+			<div class="div2" style="width:830px;">
+				<div id="navigation">
+					<ul>
+						<li><a href="About_us.aspx">About Us</a></li>
+						<li><a href="missions.aspx">Mission</a></li>
+						<li><a href="Business_Plan.aspx">Business Plan</a></li>
+						<li><a href="products.aspx">Products</a></li>
+						<li><a href="franchise.aspx">Franchies</a></li>
+						<li><a href="user_Menu.aspx">User Menu</a></li>
+						<li><a href="joinNow.aspx">Join Now</a></li>
+						<li><a href="news.aspx" >News & views</a></li>
+						<li><a href="Enquiry.aspx" >Enquiry</a></li>
+						<li><a href="login.aspx" >Help</a></li><li><%if (Session["UserID"] != null && Session["UserID"].ToString() != "")
+          {%>
+            <a href="login.aspx" style="font-size:11px"> Logout</a>
+        <%}
+          else
+          { %>
+            <a href="login.aspx" style="font-size:11px" > LogIn</a>
+        <%} %>
+                        </li>
+					</ul>
+				</div>
+			</div>
+			<div class="div2" style="width:10px;"><img src="Images/nr.gif" alt="" /></div>
+		</div>
+		<div id="head">
+			<div class="div2"><img src="Images/logo.gif" alt="Z-Rox" height="135" /></div>
+			<div class="div2">
+				<object classid="clsid:D27CDB6E-AE6D-11cf-96B8-444553540000" codebase="http://download.macromedia.com/pub/shockwave/cabs/flash/swflash.cab#version=7,0,19,0" width="135" height="135">
+      				<param name="movie" value="Images/h_gl.swf" />
+					<param name="wmode" value="transparent" />
+      				<param name="quality" value="high" />
+      				<embed src="Images/h_gl.swf" quality="high" pluginspage="http://www.macromedia.com/go/getflashplayer" type="application/x-shockwave-flash" width="135" height="135" wmode="transparent">
+					</embed>
+    			</object>
+			</div>
+			<div class="div2"><img src="Images/Internet.gif" alt="Z-Rox" height="135" /></div>
+			<div class="div3" style="padding-right:10px;">
+				<div><img src="Images/dtyd.gif" alt="Z-Rox" height="105" /></div><br />
+				<div>
+					<a href="default.aspx"><img src="Images/home_ic.gif" border="0" alt="" /> Home
+					</a>&nbsp;&nbsp;&nbsp;
+					<a href="contact_Us.aspx"><img src="Images/cont.gif" border="0" alt="" /> Contact Us
+					</a>&nbsp;&nbsp;&nbsp;
+					<a href="site_Map.aspx"><img src="Images/imag.gif" border="0" alt="" /> Sitemap
+					</a>
+				</div>
+			</div>
+		</div>
+		
+<div id="d2">
+        <!--<div id="main_content" >-->
+        <asp:contentplaceholder id="ContentPlaceHolder1" runat="server">
+        </asp:contentplaceholder>
+	<!--</div>
+    <div id="left">
+		<div class="lt">
+			<br />Business Plan<br /><br />
+			<div id="navi">
+			    <ul>
+				<li><a href="Tree_Display.aspx">Direct Income</a></li>
+				<li><a href="LeftRightnodes.aspx">Binary Pair Income</a></li>
+                <li><a href="Payment.aspx">Single Line Income</a></li>
+                <li><a href="ViewProfile.aspx">Non Sponsoring Income</a></li>
+                <li><a href="Changepassword.aspx" >Level Achivement Rewards</a></li>
+                
+                </ul>
+			</div>
+		</div>
+        <div class="lt">
+            <a href="astrology.aspx"><img src="Images/astro1.gif" width="100%" border="0" /></a>
+        </div>
+        
+    </div>-->
+</div>
+	<div id="foot">
+		Copyright &copy; All rights reserved : Z Rox, 2008 
+	</div></td></tr></table>
+    </form>
+</body>
+</html>

@@ -1,0 +1,51 @@
+
+Microsoft Visual Studio Solution File, Format Version 9.00
+# Visual Studio 2005
+Project("{E24C65DC-7377-472B-9ABA-BC803B73C61A}") = "D:\Projects\MyGreatVision\", "..\MyGreatVision", "{95AB9FC0-226D-4CB9-998E-3B2538CDBF7A}"
+	ProjectSection(WebsiteProperties) = preProject
+		SccProjectName = ""$/MGV", BAAAAAAA"
+		SccAuxPath = ""
+		SccLocalPath = "."
+		SccProvider = "MSSCCI:Microsoft Visual SourceSafe"
+		Debug.AspNetCompiler.VirtualPath = "/MyGreatVision"
+		Debug.AspNetCompiler.PhysicalPath = "D:\Projects\MyGreatVision\"
+		Debug.AspNetCompiler.TargetPath = "PrecompiledWeb\MyGreatVision\"
+		Debug.AspNetCompiler.Updateable = "true"
+		Debug.AspNetCompiler.ForceOverwrite = "true"
+		Debug.AspNetCompiler.FixedNames = "false"
+		Debug.AspNetCompiler.Debug = "True"
+		Release.AspNetCompiler.VirtualPath = "/MyGreatVision"
+		Release.AspNetCompiler.PhysicalPath = "D:\Projects\MyGreatVision\"
+		Release.AspNetCompiler.TargetPath = "PrecompiledWeb\MyGreatVision\"
+		Release.AspNetCompiler.Updateable = "true"
+		Release.AspNetCompiler.ForceOverwrite = "true"
+		Release.AspNetCompiler.FixedNames = "false"
+		Release.AspNetCompiler.Debug = "False"
+		VWDPort = "1092"
+		DefaultWebSiteLanguage = "Visual C#"
+	EndProjectSection
+EndProject
+Global
+	GlobalSection(SourceCodeControl) = preSolution
+		SccNumberOfProjects = 1
+		SccWebProject0 = true
+		SccProjectUniqueName0 = .
+		SccProjectName0 = \u0022$/MGV\u0022,\u0020BAAAAAAA
+		SccLocalPath0 = .
+		SccProvider0 = MSSCCI:Microsoft\u0020Visual\u0020SourceSafe
+		SccProjectEnlistmentChoice0 = 2
+	EndGlobalSection
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|.NET = Debug|.NET
+		Release|.NET = Release|.NET
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{95AB9FC0-226D-4CB9-998E-3B2538CDBF7A}.Debug|.NET.ActiveCfg = Debug|.NET
+		{95AB9FC0-226D-4CB9-998E-3B2538CDBF7A}.Debug|.NET.Build.0 = Debug|.NET
+		{95AB9FC0-226D-4CB9-998E-3B2538CDBF7A}.Release|.NET.ActiveCfg = Debug|.NET
+		{95AB9FC0-226D-4CB9-998E-3B2538CDBF7A}.Release|.NET.Build.0 = Debug|.NET
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal

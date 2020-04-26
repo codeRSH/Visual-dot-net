@@ -1,0 +1,19 @@
+<%@ Page Language="C#" AutoEventWireup="true" CodeFile="Admin_Enquiry_Details.aspx.cs" Inherits="Admin_Admin_Enquiry_Details" MasterPageFile="~/Admin/AdminMasterPage.master" %>
+
+<asp:Content ID="TestMasterpageContent" ContentPlaceHolderID="ContentPlaceHolder1" runat="server">
+<div id="Heading">Enquiry Details
+
+</div>
+<center>
+<table>
+        <tr>
+            <td>
+                 <asp:DetailsView ID="DetailsView1" runat="server" Height="50px" Width="125px">
+                    </asp:DetailsView>
+            </td>
+        </tr>
+</table>
+</center>
+    
+    </asp:Content>
+

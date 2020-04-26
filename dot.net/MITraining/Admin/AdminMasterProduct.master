@@ -1,0 +1,152 @@
+<%@ Master Language="C#" AutoEventWireup="true" CodeFile="AdminMasterProduct.master.cs" Inherits="Admin_AdminMasterProduct" %>
+
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+
+<html xmlns="http://www.w3.org/1999/xhtml" >
+<head id="Head1" runat="server">
+    <title>ZRox</title>
+    <link href="../CSS/v4.css" type="text/css" rel="stylesheet" />
+    <link id="LinkCSS" runat="server" type="text/css" rel="stylesheet" />
+</head>
+<body>
+    <form id="form1" runat="server">
+    <asp:ScriptManager ID="ScriptManager1" runat="server" />
+    <div>
+        <!-- Header link td start -->
+            <table class="table_header">
+          <tbody>
+          <tr>
+            <td>&nbsp;</td>
+            <td>&nbsp;</td>
+            <td class="nob">
+                <a href="#"><img alt="" src="../images/4.gif"  border="0" /></a>
+            </td>
+            <td>&nbsp;</td>
+            <td class="s" align="right">
+              
+                    <a href="Default.aspx"><b>Logout</b></a>
+               
+             </td>
+            <td>&nbsp;</td>
+          </tr>
+          <tr>
+            <td class="b">
+                <img alt="" src="../images/spacer.gif" />
+            </td>
+            <td class="t1">
+                <span class="nob">
+                    <a href="#"><img alt="" src="../images/1.gif" border="0" /></a>
+                </span>
+            </td>
+            <td class="t2">
+                <span class="nob">
+                    <a href="#"><img alt="" src="../images/2.gif" border="0" /></a>
+                </span>
+            </td>
+            <td class="t3">
+                <span class="nob">
+                    <a href="#"><img alt="" src="../images/3.gif" border="0" /></a>
+                </span>
+            </td>
+            <td class="t4">
+              <table  cellpadding="0" cellspacing="0" border="0">
+                <tbody>
+                <tr>
+                  <td class="top" height="100" width="461" align="left">                    
+	                <img src="../images/home1.jpg" alt=""/>
+	                <img src="../images/home2.jpg" width="300" alt=""/>
+                  </td>
+                </tr>
+               </tbody>
+              </table>
+            </td>
+            <td class="b">
+                <img alt="" src="../images/spacer.gif" />
+            </td>
+           </tr>
+          </tbody>
+         </table>
+ 
+  <table cellspacing="0" cellpadding="0" width="100%" border="0" height="30">
+  <tbody>
+  <tr>
+     <td width="11%" class="cellheadHeader"></td>
+     <td style="margin: 4 0 0 0px; vertical-align:middle;" class="cellheadHeader" id="tdlogin" runat="server" >
+         &nbsp; Welcome&nbsp;&nbsp;&nbsp;<asp:Label ID="lbluser" runat="server"></asp:Label></td>
+     
+     <td style="margin: 4 0 0 0px; vertical-align:middle;"  class="cellheadHeader" id="tdnologin" runat="server" >
+        
+     </td>
+     
+     <td width="35%" class="cellheadHeader" align="center">
+        <b>Select Theme</b> &nbsp; 
+        <asp:DropDownList ID="ddlTheme" runat="server" AutoPostBack="True" OnSelectedIndexChanged="ddlTheme_SelectedIndexChanged"></asp:DropDownList>
+     </td>
+  </tr>
+  </tbody>
+ </table>
+ 
+ 
+ <table cellspacing="0" cellpadding="0" width="100%" border="0">
+  <tbody>
+  <tr>
+    <td width="0" background="../images/vertic_dot.gif"  height="1"></td>
+  </tr>
+  </tbody>
+ </table>
+
+        <!-- Header link td end -->
+ <table cellspacing="0" cellpadding="0" width="780" align="center" border="0">
+  <tbody>
+  <tr>   
+    <td align="center" background="../images/hori_dot.gif" style="width: 1px"></td>
+    
+    <!-- content td start-->
+    <td valign="top" width="100%" style="padding-left:5px; padding-top:5px;" >
+        <asp:contentplaceholder id="ContentPlaceHolder1" runat="server">
+            
+        </asp:contentplaceholder>
+     </td>
+      <!-- content td end-->
+    <td width="1" background="../images/hori_dot.gif"></td>
+        
+    </tr>
+    </tbody>
+  </table>
+    
+    
+ <table cellspacing="0" cellpadding="0" width="100%" border="0">
+  <tbody>
+  <tr>
+    <td width="0" background="../images/vertic_dot.gif" height="1"></td>
+  </tr>
+  </tbody>
+ </table><br />
+        <!-- footer start -->
+        <table cellspacing="0" cellpadding="0" width="100%" border="0">
+  <tbody>
+     <tr>
+        <td class="cellheadHeader" style="height: 19px">
+            <table cellspacing="0" cellpadding="0" width="778" align="center" border="0">
+                <tbody>
+                    <tr>
+                       <td  width="200"  height="18" class="cellheadHeader">
+                           
+                      </td>
+                      <td width="200" height="18" class="cellheadHeader"></td>
+                      <td width="250" class="cellheadHeader" colspan="2" height="18" align="right">
+                         
+                        </a>
+                      </td>
+                    </tr>
+                  </tbody>
+              </table>
+          </td>
+        </tr>
+      </tbody>
+   </table>
+        <!-- Footer End-->
+    </div>
+    </form>
+</body>
+</html>

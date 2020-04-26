@@ -1,0 +1,147 @@
+<%@ Master Language="C#" AutoEventWireup="true" CodeFile="MasterPage2.master.cs" Inherits="MasterPage2" %>
+
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+
+<html xmlns="http://www.w3.org/1999/xhtml" >
+<head runat="server">
+    <title>Untitled Page</title>
+</head>
+<body>
+    <form id="form1" runat="server">
+    <div>
+        &nbsp;<br />
+        <br />
+        <table style="width: 100%">
+            <tr>
+                <td style="width: 100px; background-color: #000033; height: 43px;" rowspan="2">
+                    <asp:Menu ID="Menu1" runat="server" BackColor="#0066CC" DynamicHorizontalOffset="2"
+                        Font-Bold="True" Font-Names="Courier New" Font-Size="Medium" ForeColor="White"
+                        Height="33px"  Orientation="Horizontal"
+                        StaticSubMenuIndent="10px" Style="text-align: center" Width="1000px">
+                        <StaticSelectedStyle BackColor="#507CD1" />
+                        <StaticMenuItemStyle HorizontalPadding="5px" VerticalPadding="2px" />
+                        <DynamicHoverStyle BackColor="#284E98" ForeColor="White" />
+                        <DynamicMenuStyle BackColor="#B5C7DE" />
+                        <DynamicSelectedStyle BackColor="#507CD1" />
+                        <DynamicMenuItemStyle HorizontalPadding="5px" VerticalPadding="2px" />
+                        <StaticHoverStyle BackColor="#0099FF" ForeColor="White" />
+                        <Items>
+                            <asp:MenuItem Text="Home" Value="Home" NavigateUrl="~/Default3.aspx"></asp:MenuItem>
+                            <asp:MenuItem Text="About Us" Value="About Us"></asp:MenuItem>
+                            <asp:MenuItem Text="Mission" Value="Mission"></asp:MenuItem>
+                            <asp:MenuItem Text="Products" Value="Products"></asp:MenuItem>
+                            <asp:MenuItem Text="Join Now" Value="Join Now" NavigateUrl="~/Default13.aspx"></asp:MenuItem>
+                            <asp:MenuItem Text="Enquiry" Value="Enquiry" NavigateUrl="~/Default5.aspx"></asp:MenuItem>
+                            <asp:MenuItem Text="Administration" Value="Business Plan" NavigateUrl="~/Default8.aspx"></asp:MenuItem>
+                        </Items>
+                    </asp:Menu>
+                </td>
+            </tr>
+            <tr>
+            </tr>
+            <tr>
+                <td style="width: 100px">
+                    <table style="background-image: url(images/bg_h.jpg); width: 100%">
+                        <tr>
+                            <td style="width: 100px; font-size: 1pt;">
+                                &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;
+                                &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;
+                                &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;
+                                <asp:Image ID="Image1" runat="server" Height="169px" ImageUrl="~/images/ctus.gif"
+                                    Width="203px" /></td>
+                            <td style="width: 100px">
+                                <asp:Image ID="Image2" runat="server" ImageUrl="~/images/c.gif" Height="182px" Width="196px" />
+                                &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;&nbsp;
+                            </td>
+                            <td style="width: 100px">
+                                <asp:Image ID="Image3" runat="server" ImageUrl="~/images/Internet.gif" Height="191px" Width="199px" />
+                                &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;
+                                &nbsp; &nbsp; &nbsp; &nbsp;
+                            </td>
+                            <td style="width: 100px">
+                                <asp:Image ID="Image4" runat="server" ImageUrl="~/images/dtyd.gif" Width="340px" /></td>
+                        </tr>
+                    </table>
+                </td>
+            </tr>
+        </table>
+    </div>
+        <table style="width: 100%">
+            <tr>
+                <td style="width: 236px">
+                    <table>
+                        <tr>
+                            <td colspan="2" style="height: 35px; background-color: royalblue">
+                                &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;&nbsp;
+                                <asp:Label ID="Label4" runat="server" Font-Bold="True" Font-Names="Arial" Font-Size="X-Large"
+                                    ForeColor="White" Text="Member Login"></asp:Label></td>
+                        </tr>
+                        <tr>
+                            <td style="width: 100px; height: 21px; background-color: #33ccff; text-align:right">
+                                &nbsp;<asp:Label ID="Label5" runat="server" Font-Bold="True" Font-Names="Courier New" Font-Size="Medium"
+                                    ForeColor="White" Text="User Name:" Width="105px"></asp:Label></td>
+                            <td style="width: 100px; height: 21px; background-color: #33ccff">
+                                <asp:TextBox ID="TextBox3" runat="server" BackColor="#FFFFCC" BorderStyle="Solid"
+                                    BorderWidth="2px" Height="17px" Style="margin-top: 0px" Width="140px"></asp:TextBox></td>
+                        </tr>
+                        <tr>
+                            <td style="width: 100px; background-color: #33ccff; text-align:right">
+                                &nbsp;
+                                <asp:Label ID="Label6" runat="server" Font-Bold="True" Font-Names="Courier New" Font-Size="Medium"
+                                    ForeColor="White" Text="Password:"></asp:Label></td>
+                            <td style="width: 100px; background-color: #33ccff">
+                                <asp:TextBox ID="TextBox1" runat="server" BackColor="#FFFFCC" BorderStyle="Solid"
+                                    BorderWidth="2px" Height="17px" Style="margin-top: 0px" Width="140px"></asp:TextBox></td>
+                        </tr>
+                        <tr>
+                            <td colspan="2" style="height: 46px; background-color: #33ccff">
+                                &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;&nbsp; &nbsp;<br />
+                                &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;
+                                &nbsp; &nbsp; &nbsp;&nbsp;
+                                <asp:ImageButton ID="ImageButton2" runat="server" BorderWidth="0px" Height="21px"
+                                    ImageUrl="~/images/buttn2.gif" Width="98px" /></td>
+                        </tr>
+                        <tr>
+                            <td colspan="2" style="background-color: #33ccff; height: 24px;">
+                                &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;
+                                &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;&nbsp;
+                                <asp:LinkButton ID="LinkButton1" runat="server" Font-Size="Medium">Forgot 
+                            Password</asp:LinkButton></td>
+                        </tr>
+                    </table>
+                    <asp:Image ID="Image6" runat="server" BorderColor="White" BorderStyle="Solid" BorderWidth="5px"
+                        Height="193px" ImageUrl="~/images/astro1.gif" Width="255px" /></td>
+                <td style="width: 14px">
+                </td>
+                <td style="width: 267px">
+        <asp:contentplaceholder id="ContentPlaceHolder1" runat="server">
+        </asp:contentplaceholder>
+                </td>
+                <td style="width: 100px">
+                </td>
+                <td style="width: 100px">
+                </td>
+            </tr>
+            <tr>
+                <td style="width: 236px; height: 21px;">
+                </td>
+                <td style="width: 14px; height: 21px;">
+                </td>
+                <td style="width: 267px; height: 21px;">
+                </td>
+                <td style="width: 100px; height: 21px;">
+                </td>
+                <td style="width: 100px; height: 21px;">
+                </td>
+            </tr>
+            <tr>
+                <td style="background-color: royalblue;" colspan="5">
+                    &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;
+                    &nbsp; &nbsp;
+                    <asp:Label ID="Label1" runat="server" Font-Bold="True" Font-Names="Courier New" Font-Size="Small"
+                        ForeColor="White" Text="Copyright © All rights reserved : Micro Infoware 2009 "></asp:Label></td>
+            </tr>
+        </table>
+    </form>
+</body>
+</html>

@@ -1,0 +1,104 @@
+<%@ Master Language="C#" AutoEventWireup="true" CodeFile="adminMasterPage.master.cs" Inherits="admin_adminMasterPage" %>
+
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+
+<html xmlns="http://www.w3.org/1999/xhtml" >
+<head runat="server">
+    <title>Untitled Page</title>
+</head>
+<body>
+    <form id="form1" runat="server">
+    <div>
+        <br />
+        &nbsp;<table style="width: 100%; height: 100%">
+            <tr>
+                <td colspan="7" style="background-color: royalblue">
+                    &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;
+                    &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;
+                    &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;
+                    &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;
+                    &nbsp;<br />
+                    &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;
+                    &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; 
+                    <asp:Label ID="Label1" runat="server" Font-Bold="True" Font-Size="XX-Large" ForeColor="White"
+                        Height="31px" Text="Welcome Administrator" Font-Names="Arial"></asp:Label><br />
+                </td>
+            </tr>
+            <tr>
+                <td colspan="7" rowspan="3">
+                    <asp:Image ID="Image2" runat="server" Height="180px" ImageUrl="~/images/hll.JPG"
+                        Width="629px" /></td>
+            </tr>
+            <tr>
+            </tr>
+            <tr>
+            </tr>
+            <tr>
+                <td style="width: 171px; background-color: #000000; font-size: 1pt;">
+                    <table cellspacing="5" style="height: 100%">
+                        <tr>
+                            <td style="font-size: 1pt; width: 145px">
+                                <asp:Menu ID="Menu1" runat="server" BackColor="RoyalBlue" DynamicHorizontalOffset="2"
+                                    Font-Bold="True" Font-Names="Arial" Font-Size="Large" Font-Underline="False"
+                                    ForeColor="White" Height="200px" StaticSubMenuIndent="10px" Width="194px">
+                                    <StaticMenuItemStyle HorizontalPadding="5px" VerticalPadding="2px" />
+                                    <DynamicHoverStyle BackColor="#284E98" ForeColor="White" />
+                                    <DynamicMenuStyle BackColor="#B5C7DE" />
+                                    <StaticSelectedStyle BackColor="#507CD1" />
+                                    <DynamicSelectedStyle BackColor="#507CD1" />
+                                    <DynamicMenuItemStyle HorizontalPadding="5px" VerticalPadding="2px" />
+                                    <Items>
+                                        <asp:MenuItem Text="◘ Enquiry Details" Value="Enquiry Details"></asp:MenuItem>
+                                        <asp:MenuItem Text="◘ Employee Details" Value="Employee Details"></asp:MenuItem>
+                                        <asp:MenuItem Text="◘ Payment Details" Value="Payment Details"></asp:MenuItem>
+                                    </Items>
+                                    <StaticHoverStyle BackColor="GradientActiveCaption" ForeColor="White" />
+                                </asp:Menu>
+                                &nbsp; &nbsp; &nbsp;&nbsp;
+                            </td>
+                        </tr>
+                        <tr>
+                            <td rowspan="3" style="font-size: 1pt; width: 145px">
+                                <asp:Image ID="Image1" runat="server" Height="438px" ImageUrl="~/images/UnitGain.jpg"
+                                    Width="190px" /><br />
+                            </td>
+                        </tr>
+                        <tr>
+                        </tr>
+                        <tr>
+                        </tr>
+                    </table>
+                </td>
+                <td colspan="6">
+        <asp:contentplaceholder id="ContentPlaceHolder1" runat="server">
+        </asp:contentplaceholder>
+                    &nbsp;</td>
+            </tr>
+            <tr>
+                <td style="width: 171px">
+                </td>
+                <td style="width: 100px">
+                </td>
+                <td style="width: 560px">
+                </td>
+                <td style="width: 100px">
+                </td>
+                <td style="width: 100px">
+                </td>
+                <td style="width: 100px">
+                </td>
+                <td style="width: 100px">
+                </td>
+            </tr>
+            <tr>
+                <td style="height: 21px; background-color: royalblue;" colspan="7">
+                    &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;
+                    &nbsp; &nbsp;&nbsp;
+                    <asp:Label ID="Label2" runat="server" Font-Bold="True" Font-Names="Courier New" Font-Size="Small"
+                        ForeColor="White" Text="Copyright © All rights reserved : Micro Infoware 2009 "></asp:Label></td>
+            </tr>
+        </table>
+    </div>
+    </form>
+</body>
+</html>

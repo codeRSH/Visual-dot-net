@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<photos>
+	<photo filename="1.jpg" thumbnail="1s.jpg" description="" />
+	<photo filename="2.jpg" thumbnail="2s.jpg" description="" />
+	<photo filename="3.jpg" thumbnail="3s.jpg" description="" />
+	<photo filename="4.jpg" thumbnail="4s.jpg" description="" />
+	<photo filename="5.jpg" thumbnail="5s.jpg" description="" />
+	<photo filename="6.jpg" thumbnail="6s.jpg" description="" />
+	<photo filename="7.jpg" thumbnail="7s.jpg" description="" />
+	<photo filename="8.jpg" thumbnail="8s.jpg" description="" />
+	<photo filename="9.jpg" thumbnail="9s.jpg" description="" />
+</photos>

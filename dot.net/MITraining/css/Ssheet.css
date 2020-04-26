@@ -1,0 +1,300 @@
+BODY {
+margin:10px 0px 0px 0px;
+FONT-FAMILY:Verdana, Tahoma, Arial, ;
+font-size:12px;
+color:#000033;
+font-weight:bold;
+background:#000000;
+text-align:center;
+}
+#page{
+background:#FFFFFF;
+position:relative;
+width:860px;
+margin:auto;
+}
+.hd{
+	font-family:"Agency FB";
+	font-size:30px;
+	color:#442200;
+	font-weight:bold;
+	padding:0px 10px 0px 10px;
+}
+#main{
+width:850px;
+position:relative;
+margin-left:auto;
+margin-right:auto;
+clear:both
+}
+#head {
+	background:url(../Images/bg_h.jpg);
+	font-family: Tahoma, Arial, Verdana;
+	font-size:12px;
+	color:#006699;
+	position:relative;
+	float:left;
+	text-align:center;
+	width:100%;
+	height:auto;
+}
+#main_content {
+	background-color:#Ffffff;
+	border:#9999ff 1px double;
+	text-align:justify;
+	width:75%;
+	min-height:350px;
+	margin-bottom:0px;
+	margin-top:5px;
+	position:relative;
+	float:right;
+}
+#left{
+	
+	FONT-FAMILY:Verdana, Tahoma, Arial;
+	font-size:14px;
+	color:#000033;
+	margin:5px 0px 0px 0px;
+	padding:0px 0px 0px 0px;
+	text-align:center;
+	width:24%;
+	position:relative;
+	float:left;
+}
+#right{
+	FONT-FAMILY:Verdana, Tahoma, Arial;
+	font-size:14px;
+	color:#331100;
+	margin:5px 0px 0px 0px;
+	padding:0px 0px 0px 0px;
+	text-align:center;
+	width:24%;
+	position:relative;
+	float:right;
+}
+.lt
+{
+	padding:0px 0px 0px 0px;
+	background:#dadaff url(../Images/aa1.jpg) no-repeat;
+	border:#9999ff 1px double;
+	FONT-FAMILY:Verdana, Tahoma, Arial;
+	font-size:14px;
+	color:#000033;
+	padding:15px 0px 5px 0px;
+	margin:0px 0px 5px 0px;
+	text-align:center;
+	width:100%;
+	position:relative;
+	float:left;
+}
+.rt{
+	background:#fff5ef url(../Images/aa.jpg) no-repeat;
+	border:#ff9900 1px double;
+	FONT-FAMILY:Verdana, Tahoma, Arial;
+	font-size:14px;
+	color:#331100;
+	padding:10px 0px 0px 0px;
+	text-align:center;
+	width:99%;
+	margin:0px 0px 5px 0px;
+	position:relative;
+	float:right;
+}
+.lt1{
+	border:#ff9900 1px double;
+	padding:0px 0px 0px 0px;
+	text-align:center;
+	width:100%;
+	margin-bottom:5px;
+	margin:0px 0px 0px 0px;
+	position:relative;
+	float:left;
+}
+.rt1{
+	border:#ff9900 1px double;
+	padding:0px 0px 0px 0px;
+	text-align:center;
+	width:99%;
+	margin-bottom:5px;
+	margin:0px 0px 0px 0px;
+	position:relative;
+	float:right;
+}
+.btn{
+	border:#ff6633 solid 1px;
+	background:#ffddaa;
+	height:20px;
+	text-align:center;
+	vertical-align:middle;
+}
+.d2 {
+	text-align:left;
+	border:#999999 1px double;
+	width:98.7%;
+	position:relative;
+	margin:0px 0px 0px 0px;
+	padding-left:10px;
+	height:20px;
+	float:left;
+	background: #993300;
+}
+#foot {
+	FONT-FAMILY: Tahoma, Arial, Verdana;
+	font-size:11px;
+	line-height:12px;
+	padding-top:10px;
+	padding-bottom:5px;
+	color:#000033;
+	font-weight:bold;
+	text-align:center;
+	width:100%;
+	margin:5px 0px 0px 0px;
+	height:16px;
+	background-image:url(../images/fot.jpg);
+	background-position:top;
+	position:relative;
+	clear:both;
+	float:left;
+}
+#div1 {
+	text-align:center;
+	width:100%;
+	position:relative;
+	float:left;
+}
+.div2 {
+	text-align:left;
+	position:relative;
+	float:left;
+}
+.div3 {
+	text-align:right;
+	position:relative;
+	float:right;
+	
+}
+/*#Heading
+{
+	height:23px;
+	background:url(../Images/H_bgn.png) repeat;
+	vertical-align: text-bottom; 
+	color:#000033;
+	padding-top: 2px;padding-left:10px;
+	font-family:Tahoma; 
+	letter-spacing: normal; 
+	width:98.4%;
+	font-size:16px;
+	font-weight:bolder;	
+}*/
+#txt TD
+{
+	padding-left:10px;
+	padding-right:10px;
+	FONT-WEIGHT:normal; 
+	FONT-SIZE:small;
+	COLOR:#000033;
+	FONT-FAMILY:Verdana, Bookman Old Style, Franklin Gothic Medium;
+}
+.paratext
+{
+	padding:8px 8px 5px 8px;
+	FONT-WEIGHT:normal; 
+	FONT-SIZE:8.7pt;
+	line-height:16px;
+	COLOR:#000033;
+	FONT-FAMILY:Verdana, Franklin Gothic Medium;
+}
+.txt
+{
+	padding:8px 8px 5px 8px;
+	FONT-WEIGHT:normal; 
+	FONT-SIZE:8.7pt;
+	line-height:16px;
+	COLOR:#000033;
+	FONT-FAMILY:Verdana, Franklin Gothic Medium;
+}
+.vld
+{
+	FONT-WEIGHT:normal; 
+	FONT-SIZE:9px;
+	COLOR:#000033;
+	FONT-FAMILY:Verdana, Bookman Old Style, Franklin Gothic Medium;
+}
+#navigation {
+	BACKGROUND:url(../images/n.gif) repeat-x #fff5ef;
+	FLOAT: left;
+	FONT: bold 12px Tahoma, Arial, Verdana;
+	WIDTH: 100%; COLOR: #000033;
+	HEIGHT: 30px;
+}
+#navigation UL {
+	PADDING-RIGHT: 0px; PADDING-LEFT: 0px; FLOAT: left; PADDING-BOTTOM: 0px; MARGIN: 0px; PADDING-TOP: 0px; LIST-STYLE-TYPE: none;
+}
+#navigation LI {
+	PADDING-RIGHT: 0px; PADDING-LEFT: 0px; BACKGROUND: url(../images/dtg.gif) no-repeat 100% 0px; FLOAT: left; PADDING-BOTTOM: 0px; MARGIN: 0px; PADDING-TOP: 0px;
+}
+#navigation A:visited {
+	PADDING-RIGHT: 11px; DISPLAY: block; PADDING-LEFT: 12px; PADDING-BOTTOM:7px;  COLOR: #000033; PADDING-TOP: 7px; TEXT-DECORATION: none
+}
+#navigation A:active  {
+	PADDING-RIGHT: 11px; DISPLAY: block; PADDING-LEFT: 12px; PADDING-BOTTOM:7px;  COLOR: #000033; PADDING-TOP: 7px; TEXT-DECORATION: none
+}
+#navigation A:link {
+	PADDING-RIGHT: 11px; DISPLAY: block; PADDING-LEFT: 12px; PADDING-BOTTOM:7px;  COLOR: #000033; PADDING-TOP: 7px; TEXT-DECORATION: none
+}
+#navigation A:hover {
+	PADDING-RIGHT: 11px; DISPLAY: block; PADDING-LEFT: 12px;  PADDING-BOTTOM:7px; COLOR: #000000; PADDING-TOP: 7px; TEXT-DECORATION: none; BACKGROUND:url(../images/nh.gif);
+}
+A:visited {
+COLOR: #000033; font-weight:bold; TEXT-DECORATION: none
+}
+A:active  {
+COLOR: #000033; font-weight:bold; TEXT-DECORATION: none
+}
+A:link {
+COLOR: #000033; font-weight:bold; TEXT-DECORATION: none
+}
+A:hover {
+COLOR: #000000; font-weight:bold; TEXT-DECORATION:underline; BACKGROUND:none;
+}
+
+#Heading {
+	FONT-FAMILY:Georgia,Verdana;
+	font-size:16px;
+	line-height:16px;
+	padding:6px 0px 3px 8px;
+	color:#000000;
+	font-weight:bold;
+	text-align:left;
+	width:99%;
+	margin:0px 0px 0px 0px;
+	height:16px;
+	background-image:url(../images/H_bgn.png);
+	background-position:top;
+	position:relative;
+	float:left;
+}
+#navi {
+	FLOAT: left;
+	FONT:lighter 12px Verdana;
+	WIDTH: 100%; COLOR: #000033;
+	text-align:left;
+}
+#navi UL {
+	PADDING:0px 0px 0px 0px; MARGIN: 0px 0px 0px 0px;LIST-STYLE-TYPE: none;
+}
+#navi LI {
+	PADDING:0px 0px 0px 0px; MARGIN: 0px 0px 8px 10px;
+}
+#navi A:visited {
+	PADDING:0px 0px 0px 0px; TEXT-DECORATION: none; font-weight:500;
+}
+#navi A:active  {
+	PADDING:0px 0px 0px 0px; TEXT-DECORATION: none; font-weight:500;
+}
+#navi A:link {
+	PADDING:0px 0px 0px 0px; TEXT-DECORATION: none; font-weight:500;
+}
+#navi A:hover {
+	PADDING:0px 0px 0px 0px; font-weight:bold; TEXT-DECORATION: none;
+}

@@ -1,0 +1,116 @@
+<%@ Master Language="C#" AutoEventWireup="true" CodeFile="MasterPage.master.cs" Inherits="MasterPage" %>
+
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+
+<html xmlns="http://www.w3.org/1999/xhtml" >
+<head runat="server">
+    <title>Micro Infoware</title>
+    <link href="CSS/v4.css" type="text/css" rel="stylesheet" />
+    <link href="CSS/class.css" rel="stylesheet" type="text/css" />
+    <link href="CSS/Ssheet.css" rel="stylesheet" type="text/css" />
+     <link href="CSS/css-content.css" type="text/css" rel="stylesheet" />
+    <link id="LinkCSS" runat="server" type="text/css" rel="stylesheet" />
+</head>
+<body>
+    <form id="form1" runat="server">
+    <asp:ScriptManager ID="ScriptManager1" runat="server" />
+    <table cellpadding="0" cellspacing="0" border="0" id="page" >
+	<tr><td style="height: 809px"><div id="main">
+		<div class="div2" style="margin-top:10px; background:#F1F1FE">
+			<div class="div2" style="width:10px;"><img src="Images/nl.gif" alt="" /></div>
+			<div class="div2" style="width:830px;">
+				<div id="navigation">
+					<ul>
+					    <li><a href="default.aspx">Home</a></li>
+						<li><a href="About_us.aspx">About Us</a></li>
+						<li><a href="Missions.aspx">Mission</a></li>
+						<li><a href="business_Plan.aspx">Business Plan</a></li>
+						<li><a href="products.aspx">Products</a></li>
+						
+						<li><a href="astrology.aspx">Free Astrology</a></li>
+						<li><a href="joinNow.aspx">Join Now</a></li>
+						<li><a href="enquiry.aspx" >Enquiry</a></li>
+						<li><a href="Contact_Us.aspx" >Contacts</a></li>
+						<li><%if (Session["UserID"] != null && Session["UserID"].ToString() != "")
+          {%>
+            <a href="login.aspx"> Logout</a>
+        <%}
+          else
+          { %>
+            <li><a href="Login.aspx" >Login</a></li>
+        <%} %>
+                        </li>
+					</ul>
+				</div>
+			</div>
+			<div class="div2" style="width:10px;"><img src="Images/nr.gif" alt="" /></div>
+		</div>
+		<div id="head">
+			
+			<div class="div2">
+				<object classid="clsid:D27CDB6E-AE6D-11cf-96B8-444553540000" codebase="http://download.macromedia.com/pub/shockwave/cabs/flash/swflash.cab#version=7,0,19,0" width="180" height="135">
+      				<param name="movie" value="Images/head.swf" />
+					<param name="wmode" value="transparent" />
+      				<param name="quality" value="high" />
+      				<embed src="Images/head.swf" quality="high" pluginspage="http://www.macromedia.com/go/getflashplayer" type="application/x-shockwave-flash" width="180" height="135" wmode="transparent">
+					</embed>
+    			</object>
+			</div>
+			
+			<div class="div2"><img src="Images/Internet.gif" alt="Z-Rox" height="135" style="padding:0px 0px 0px 0px" /></div>
+			
+			<div class="div2"><img src="Images/c.gif" alt="Z-Rox" height="135" /></div>
+			
+			
+			
+			<div class="div3" style="padding-right:10px;">
+				<div><img src="Images/dtyd.gif" alt="Z-Rox" height="135" /></div>
+			</div>
+		</div>
+		
+<div id="d2">
+        <div id="main_content" >
+        <asp:contentplaceholder id="ContentPlaceHolder1" runat="server">
+        </asp:contentplaceholder>
+		</div>
+    <div id="left">
+		<div class="lt">
+		<%if (Session["UserID"] != null && Session["UserID"].ToString() != "")
+          {%>User Menu<br /><br />
+			<div id="navi">
+			    <ul>
+				<li><a href="Tree_Display.aspx">Binary Display</a></li>
+				<li><a href="#">Left/Right Node Count</a></li>
+                <li><a href="payment.aspx"> payment</a></li>
+                <li><a href="ViewProfile.aspx"> View/Edit Profile</a></li>
+                <li><a href="Changepassword.aspx" >Change Password</a></li>
+                <li><a href="#" >Spill Details</a></li>
+                <li><a href="#" >Fresh Sales</a></li>
+                </ul>
+			</div>
+		<%}
+          else
+          { %>Member Login<br /><br />
+            <div class="div3" style="padding-right:8px;font-size:12px;font-weight:lighter">
+			User Name <asp:TextBox ID="txtuserid" runat="server" Width="110"></asp:TextBox><BR /><br />
+			Password <asp:TextBox ID="txtpassword" TextMode="Password" runat="server" Width="110"></asp:TextBox><BR /><br />
+			<asp:Button ID="btn" runat="server" Text="Login" OnClick="btt1_Click" /><br /><br />
+              <a href="forgotpwd.aspx">Forgot Password</a>
+			</div>
+          <%} %>
+		</div>
+        <div class="lt1">
+            <a href="astrology.aspx"><img src="Images/astro1.gif" width="100%" border="0" /></a>
+        </div>
+        
+    </div>
+</div>
+	</div>
+	<div id="foot">
+		Copyright &copy; All rights reserved : Micro Infoware 2009 
+		
+	</div></td></tr></table>
+    </form>
+</body>
+</html>
+

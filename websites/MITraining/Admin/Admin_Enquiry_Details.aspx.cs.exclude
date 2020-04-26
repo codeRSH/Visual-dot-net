@@ -1,0 +1,53 @@
+using System;
+using System.Data;
+using System.Configuration;
+using System.Collections;
+using System.Web;
+using System.Web.Security;
+using System.Web.UI;
+using System.Web.UI.WebControls;
+using System.Web.UI.WebControls.WebParts;
+using System.Web.UI.HtmlControls;
+using System.Data.SqlClient;
+
+public partial class Admin_Admin_Enquiry_Details : CommonClass
+{
+    protected void Page_Load(object sender, EventArgs e)
+    {
+        if (Session["AdminID"] == null || Session["AdminID"].ToString() == "")
+        {
+            Response.Redirect("Default.aspx");
+        }
+        if (!this.IsPostBack)
+        {
+            DisplayValues();
+        }
+    }
+
+    protected void DisplayValues()
+    {
+        try
+        {
+            //SqlDataReader dr = RunSqlReturnDR("Select id,name,reg_no,phone_no,email,subject,enquiry from MI_MGV_Enquiry where id=" + Session["EnquiryID"].ToString());
+            SqlDataReader dr = RunSPReturnDR("EnquiryDetails", new SqlParameter("@EnquiryID", Session["EnquiryID"].ToString()));
+            if (dr.HasRows)
+            {
+                dr.Read();
+                lblName.Text = dr["name"].ToString();
+                lblRegNo.Text = dr["reg_no"].ToString();
+                lblPhone.Text = dr["phone_no"].ToString();
+                lblEmailID.Text = dr["email"].ToString();
+                lblSubj.Text = dr["subject"].ToString();
+                lblMessage.Text = dr["enquiry"].ToString();
+            }
+        }
+        catch (Exception ex)
+        {
+            Response.Write(ex);
+        }
+    }
+    protected void btnReply_Click(object sender, EventArgs e)
+    {
+       Response.Redirect("Admin_Mail.aspx");
+    }
+}

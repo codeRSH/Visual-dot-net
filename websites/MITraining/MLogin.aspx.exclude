@@ -1,0 +1,20 @@
+<%@ Register Src="~/MemberLogin.ascx" TagName="MLogin" TagPrefix="ML"%>
+<%@ Page Language="C#" MasterPageFile="~/MasterPage.master" AutoEventWireup="true" CodeFile="MLogin.aspx.cs" Inherits="MLogin" Title="Untitled Page" %>
+
+
+<asp:Content ID="Content1" ContentPlaceHolderID="ContentPlaceHolder1" Runat="Server">
+   <form id="f1" runat="server">
+    <table>
+               <tr>
+                    <td>
+                        <ML
+                        
+                    </td>
+               </tr>
+    
+    </table>
+   
+   
+   </form>
+</asp:Content>
+

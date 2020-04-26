@@ -1,0 +1,136 @@
+
+
+	
+
+	
+/*~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ 
+    
+    css-master
+
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~*/
+
+/*~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~*
+
+	HTML TAGS 
+
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~*/
+
+/*~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~*
+
+	LINKS
+
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~*/
+
+#top
+{
+	text-align:right;
+	color:White;
+	width:780px;
+	height:20px;	
+}
+#top1
+{
+	text-align:right;
+	color:White;
+	width:780px;
+	height:25px;
+	vertical-align:bottom;	
+}
+
+/*~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~*
+
+	MAIN NAV 
+
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~*/
+
+#nav-main {
+	/*background: url(../images/navbtn1.png) no-repeat;*/
+	FILTER: progid:DXImageTransform.Microsoft.Gradient(GradientType=0,StartColorStr='#8f96fa',EndColorStr='#0066aa');
+	
+	margin-left:auto;
+	margin-right:auto;
+	width:780px;
+	padding:0px 0px 0px 0px 0px;
+	position:relative;
+	font-weight:bold;
+	text-align:center;
+}
+
+
+
+
+#nav-main a:link,
+#nav-main a:visited {
+	color:White;
+	text-decoration:none;
+}
+
+#nav-main a:hover {
+	color:Black;
+	text-decoration:underline;
+}
+
+#nav-main a:active {
+	color:Maroon;
+}
+
+
+
+/* ACTIVE PAGES */
+#nav-main a.StaticSelectedStyle:link,
+#nav-main a.StaticSelectedStyle:visited {
+	color:Maroon;
+	text-decoration:underline;
+}
+#header
+{
+	width:780px;
+	text-align:center;	
+}
+
+
+/*~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~*
+
+	LISTS
+
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~*/
+
+ul {
+	margin:0;
+	padding:0;
+	}
+
+li {
+	list-style:none;
+	background:url(../../images/list-bullet-02.gif) no-repeat 0 .8em;
+	padding:.2em 0 .2em 1em;
+	margin-left:0.4em;
+	
+}
+
+ul.list-of-links {
+	border-bottom:1px dotted #B2B2B2;
+}
+
+#content-side1-three-column ul.list-of-links,
+#content-side2-three-column ul.list-of-links {
+	margin: 0 0 30px 0px;
+}
+
+ul.list-of-links li{
+	border-top:1px dotted #B2B2B2;
+	background-image:url(../../images/list-bullet-01-link.gif);
+}
+
+ul.list-of-links li.current {
+	background-color:#E5E5E5;
+}
+
+
+ul.no-lines,
+ul.no-lines li {
+	border:none;
+	}
+
+
+

@@ -1,0 +1,355 @@
+BODY {
+	SCROLLBAR-FACE-COLOR: #006699; FONT-WEIGHT: normal; FONT-SIZE: 8pt; BACKGROUND-IMAGE: url(../images/back.jpg); MARGIN: 0px; SCROLLBAR-HIGHLIGHT-COLOR: #006699; SCROLLBAR-SHADOW-COLOR: #006699; COLOR: white; SCROLLBAR-3DLIGHT-COLOR: #006699; SCROLLBAR-ARROW-COLOR: #ffffff; SCROLLBAR-TRACK-COLOR: #ffffff; FONT-FAMILY: Verdana, Tahoma, Arial; SCROLLBAR-DARKSHADOW-COLOR: #006699
+}
+SPAN.shadow {
+	FONT-WEIGHT: bold; FONT-SIZE: 8pt; CURSOR: hand; COLOR: white; FONT-FAMILY: Verdana, Tahoma, Arial; POSITION: absolute; TEXT-DECORATION: none; xxfilter: progid:DXImageTransform.Microsoft.Shadow(direction=135,color=#000000,strength=2)
+}
+.cellheadp {
+	PADDING-RIGHT: 5px; PADDING-LEFT: 5px; FONT-WEIGHT: bold; FONT-SIZE: 10pt; FILTER: progid:DXImageTransform.Microsoft.Gradient(GradientType=0,StartColorStr='#CED274',EndColorStr='#B9BC49'); PADDING-BOTTOM: 2px; COLOR: #000000; PADDING-TOP: 2px; FONT-FAMILY: Tahoma, Arial; BACKGROUND-COLOR: #2d4930; TEXT-DECORATION: none
+}
+.cellhead {
+	PADDING-RIGHT: 5px; PADDING-LEFT: 5px; FONT-WEIGHT: bold; FONT-SIZE: 7pt; COLOR: #ffffff; FONT-FAMILY: Tahoma, Arial; HEIGHT: 25px; BACKGROUND-COLOR: #435392; TEXT-DECORATION: none
+}
+.gradient {
+	PADDING-RIGHT: 10px; PADDING-LEFT: 10px; FONT-WEIGHT: bold; FONT-SIZE: 8pt; PADDING-BOTTOM: 5px; COLOR: #ffffff; PADDING-TOP: 5px; FONT-FAMILY: verdana; BACKGROUND-COLOR: #92bcba; x: progid:DXImageTransform.Microsoft.Gradient(gradientType=1,startColorStr='#0066CC',endColorStr='#ffffff')
+}
+TABLE.celltable {
+	BACKGROUND-COLOR: #6d7dbc
+}
+
+TABLE.auto {
+	BACKGROUND-COLOR: transparent
+}
+TABLE.pageHeading {
+	BORDER-RIGHT: #254a65 1px solid; BORDER-TOP: #254a65 1px solid; FONT-WEIGHT: bold; BORDER-LEFT: #254a65 1px solid; BORDER-BOTTOM: #254a65 1px solid; BACKGROUND-COLOR: #bed6e7
+}
+TD.loginleftmenu_over {
+	FONT-WEIGHT: bold; FONT-SIZE: 8pt; CURSOR: hand; COLOR: #f3f3f3; FONT-FAMILY: Verdana, Tahoma, Arial; BACKGROUND-COLOR: #73a254; TEXT-DECORATION: none
+}
+TD.loginleftmenu_over_new {
+	PADDING-RIGHT: 10px; PADDING-LEFT: 10px; FONT-WEIGHT: bold; FONT-SIZE: 8pt; PADDING-BOTTOM: 5px; CURSOR: hand; COLOR: #f3f3f3; PADDING-TOP: 5px; FONT-FAMILY: Verdana, Tahoma, Arial; BACKGROUND-COLOR: #e77833; TEXT-DECORATION: none
+}
+TD.loginleftmenu_over_new11 {
+	FONT-WEIGHT: bold; FONT-SIZE: 8pt; PADDING-BOTTOM: 5px; CURSOR: hand; COLOR: #f3f3f3; PADDING-TOP: 5px; FONT-FAMILY: Verdana, Tahoma, Arial; BACKGROUND-COLOR: #bae074; TEXT-DECORATION: none
+}
+TD.loginleftmenu_list {
+	FONT-WEIGHT: bold; FONT-SIZE: 8pt; PADDING-BOTTOM: 5px; COLOR: #008000; PADDING-TOP: 5px; FONT-FAMILY: Verdana, Tahoma, Arial; TEXT-DECORATION: none
+}
+TD.loginleftmenu {
+	PADDING-LEFT: 0px; FONT-WEIGHT: bold; FONT-SIZE: 8pt; PADDING-BOTTOM: 0px; COLOR: #ffffff; PADDING-TOP: 0px; FONT-FAMILY: Verdana, Tahoma, Arial; TEXT-DECORATION: none
+}
+TD.loginleftmenu_Menu {
+	PADDING-LEFT: 10px; FONT-WEIGHT: bold; FONT-SIZE: 8pt; PADDING-BOTTOM: 5px; COLOR: #ffffff; PADDING-TOP: 5px; FONT-FAMILY: Verdana, Tahoma, Arial; TEXT-DECORATION: none
+}
+TD.topnormal {
+	PADDING-RIGHT: 5px; PADDING-LEFT: 5px; FONT-SIZE: 8pt; BACKGROUND-IMAGE: url(../images/overmenu.jpg); PADDING-BOTTOM: 5px; COLOR: #ffffff; PADDING-TOP: 5px; FONT-FAMILY: Verdana; TEXT-DECORATION: none
+}
+TD.topnormalover {
+	PADDING-RIGHT: 5px; PADDING-LEFT: 5px; FONT-WEIGHT: bold; FONT-SIZE: 7.5pt; BACKGROUND-IMAGE: url(../images/menu.jpg); PADDING-BOTTOM: 5px; COLOR: #ffffff; PADDING-TOP: 5px; FONT-FAMILY: Verdana; TEXT-DECORATION: none
+}
+TD.welcome {
+	PADDING-RIGHT: 5px; PADDING-LEFT: 5px; FONT-WEIGHT: bold; FONT-SIZE: 10pt; PADDING-BOTTOM: 3px; COLOR: #1a587f; PADDING-TOP: 3px; FONT-FAMILY: Arial; HEIGHT: 35px
+}
+TD.welcome1 {
+	PADDING-RIGHT: 5px; PADDING-LEFT: 5px; FONT-WEIGHT: bold; FONT-SIZE: 10pt; PADDING-BOTTOM: 3px; COLOR: #ff9900; PADDING-TOP: 3px; FONT-FAMILY: Arial; HEIGHT: 35px
+}
+SPAN.orange {
+	FONT-WEIGHT: bold; FONT-SIZE: 10pt; COLOR: #e77817; FONT-FAMILY: Verdana
+}
+TD.heading {
+	FONT-WEIGHT: bold; FONT-SIZE: 10pt; COLOR: #4c7179; FONT-FAMILY: Verdana, Tahoma, Arial
+}
+TD.copy {
+	PADDING-RIGHT: 0px; PADDING-LEFT: 0px; FONT-SIZE: 8pt; MARGIN-LEFT: 0px; COLOR: #666666; FONT-FAMILY: Arial
+}
+TD {
+	FONT-SIZE: 7.5pt; COLOR: #000000; FONT-FAMILY: Verdana, Tahoma, Arial
+}
+TD.news {
+	PADDING-RIGHT: 4px; PADDING-LEFT: 4px; FONT-SIZE: 8pt; PADDING-BOTTOM: 4px; COLOR: #666666; PADDING-TOP: 4px; FONT-FAMILY: Verdana, Tahoma, Arial
+}
+TD.pad {
+	PADDING-RIGHT: 4px; PADDING-LEFT: 4px; FONT-SIZE: 8.5pt; PADDING-BOTTOM: 4px; COLOR: #666666; PADDING-TOP: 4px; FONT-FAMILY: Verdana, Tahoma, Arial
+}
+TD.pad1 {
+	PADDING-RIGHT: 4px; PADDING-LEFT: 4px; FONT-SIZE: 8pt; PADDING-BOTTOM: 4px; COLOR: #000000; PADDING-TOP: 4px; FONT-FAMILY: Verdana, Tahoma, Arial
+}
+TD.password {
+	PADDING-RIGHT: 4px; PADDING-LEFT: 4px; FONT-SIZE: 8pt; PADDING-BOTTOM: 4px; COLOR: #000000; PADDING-TOP: 4px; FONT-FAMILY: Verdana
+}
+A.more:link {
+	FONT-WEIGHT: bold; FONT-SIZE: 8pt; COLOR: #740d0e; FONT-FAMILY: Arial; TEXT-DECORATION: none
+}
+A.more:visited {
+	FONT-WEIGHT: bold; FONT-SIZE: 8pt; COLOR: #740d0e; FONT-FAMILY: Arial; TEXT-DECORATION: none
+}
+A.more:active {
+	FONT-WEIGHT: bold; FONT-SIZE: 8pt; FONT-FAMILY: Arial; TEXT-DECORATION: none
+}
+A.more:hover {
+	FONT-WEIGHT: bold; FONT-SIZE: 8pt; COLOR: #ff0000; FONT-FAMILY: Arial; TEXT-DECORATION: none
+}
+A.top:link {
+	FONT-SIZE: 8pt; COLOR: #000000; FONT-FAMILY: verdana; TEXT-DECORATION: none
+}
+A.top:visited {
+	FONT-SIZE: 8pt; COLOR: #000000; FONT-FAMILY: verdana; TEXT-DECORATION: none
+}
+A.top:active {
+	FONT-SIZE: 8pt; COLOR: #000000; FONT-FAMILY: verdana; TEXT-DECORATION: none
+}
+A.top:hover {
+	FONT-SIZE: 8pt; COLOR: #e1582a; FONT-FAMILY: verdana; TEXT-DECORATION: none
+}
+A:link {
+	FONT-SIZE: 8pt; COLOR: #000000; FONT-FAMILY: Verdana; TEXT-DECORATION: none
+}
+A:visited {
+	FONT-SIZE: 8pt; COLOR: #000000; FONT-FAMILY: Verdana; TEXT-DECORATION: none
+}
+A:active {
+	FONT-SIZE: 8pt; COLOR: #000000; FONT-FAMILY: Verdana; TEXT-DECORATION: none
+}
+A:hover {
+	FONT-SIZE: 8pt; COLOR: #666666; FONT-FAMILY: Verdana; TEXT-DECORATION: none
+}
+A.forgot:link {
+	FONT-SIZE: 7pt; COLOR: #ffffff; FONT-FAMILY: Verdana, Tahoma, Arial; TEXT-DECORATION: none
+}
+A.forgot:visited {
+	FONT-SIZE: 7pt; COLOR: #ffffff; FONT-FAMILY: Verdana, Tahoma, Arial; TEXT-DECORATION: none
+}
+A.forgot:active {
+	FONT-SIZE: 7pt; COLOR: #ffffff; FONT-FAMILY: Verdana, Tahoma, Arial; TEXT-DECORATION: none
+}
+A.forgot:hover {
+	FONT-SIZE: 7pt; COLOR: #005900; FONT-FAMILY: Verdana, Tahoma, Arial; TEXT-DECORATION: none underline
+}
+.TEXTBOX {
+	BORDER-RIGHT: #cacaca 1px solid; BORDER-TOP: #cacaca 1px solid; FONT-WEIGHT: normal; FONT-SIZE: 8pt; BORDER-LEFT: #cacaca 1px solid; COLOR: #808080; BORDER-BOTTOM: #cacaca 1px solid; BACKGROUND-COLOR: #ffffff
+}
+.TEXTBOX1 {
+	BORDER-RIGHT: #aaaaaa 1px solid; BORDER-TOP: #aaaaaa 1px solid; FONT-WEIGHT: normal; FONT-SIZE: 8pt; BORDER-LEFT: #aaaaaa 1px solid; BORDER-BOTTOM: #aaaaaa 1px solid; BACKGROUND-COLOR: white
+}
+.black {
+	FONT-WEIGHT: normal; FONT-SIZE: 11px; COLOR: #000000; FONT-FAMILY: Tahoma
+}
+.bodyt {
+	FONT-WEIGHT: normal; FONT-SIZE: 11px; COLOR: #000000; LINE-HEIGHT: 17px; FONT-FAMILY: Tahoma
+}
+SPAN.normaltitleMenu {
+	PADDING-RIGHT: 0px; PADDING-LEFT: 0px; FONT-WEIGHT: bold; CURSOR: hand; PADDING-TOP: 0px; FONT-FAMILY: Verdana; padding-botton: 0px
+}
+SPAN.mover_titleMenu {
+	PADDING-RIGHT: 0px; PADDING-LEFT: 0px; FONT-WEIGHT: bold; MARGIN-LEFT: 0px; CURSOR: hand; FONT-FAMILY: Verdana
+}
+SPAN.successmesg {
+	FONT-WEIGHT: bold; FONT-SIZE: 9pt; COLOR: green; FONT-FAMILY: Verdana
+}
+TABLE.celltable {
+	BACKGROUND-COLOR: #f3f3f3
+}
+H2 {
+	FONT-WEIGHT: bold; FONT-SIZE: 12pt; COLOR: white; FONT-FAMILY: Verdana, Tahoma, Arial
+}
+TD.profile {
+	PADDING-LEFT: 5px; FONT-SIZE: 10pt; FONT-FAMILY: Verdana, Tahoma, Arial
+}
+TD.heading {
+	BORDER-RIGHT: #31639c 1px solid; BORDER-TOP: #31639c 1px solid; PADDING-LEFT: 5px; FONT-WEIGHT: bold; FONT-SIZE: 9pt; BORDER-LEFT: #31639c 1px solid; COLOR: #31639c; BORDER-BOTTOM: #31639c 1px solid; FONT-FAMILY: Verdana, Arial; BACKGROUND-COLOR: #82cbee
+}
+PRE.read {
+	FONT-SIZE: 8pt; FONT-FAMILY: Verdana, Tahoma, Arial
+}
+.Submit_1 {
+	BORDER-RIGHT: #666 1px solid; BORDER-TOP: #999 1px solid; FONT-SIZE: 90%; FILTER: progid:DXImageTransform.Microsoft.Gradient(
+		GradientType=0,StartColorStr='#ffffffff',EndColorStr='#8CC9EF'); BORDER-LEFT: #999 1px solid; CURSOR: hand; COLOR: #1d4f74; BORDER-BOTTOM: #666 1px solid; FONT-FAMILY: Verdana, Arial, Helvetica, sans-serif; BACKGROUND-COLOR: #ddd
+}
+.Submit {
+	BORDER-RIGHT: #68676c 1px solid; BORDER-TOP: #68676c 1px solid; FONT-WEIGHT: bold; FONT-SIZE: 95%; BORDER-LEFT: #68676c 1px solid; CURSOR: hand; COLOR: #68676c; BORDER-BOTTOM: #68676c 1px solid; FONT-FAMILY: Verdana, Arial, Helvetica, sans-serif; BACKGROUND-COLOR: #e6e6e6
+}
+SPAN.errText {
+	FONT-WEIGHT: bold; FONT-SIZE: 8pt; COLOR: red; FONT-FAMILY: verdana
+}
+SPAN.shortText {
+	FONT-SIZE: 8pt; COLOR: #0066cc; FONT-FAMILY: verdana
+}
+TABLE.auto {
+	
+}
+SPAN.heading {
+	FONT-WEIGHT: bold; FONT-SIZE: 12pt; COLOR: #307477; FONT-FAMILY: Arial Narrow
+}
+SPAN.more {
+	FONT-SIZE: 12pt; COLOR: #ff8627; FONT-FAMILY: Comic Sans MS
+}
+SPAN.SitemesgTouser {
+	FONT-WEIGHT: bold; FONT-SIZE: 8pt; COLOR: #31639c; FONT-FAMILY: Verdana, Arial
+}
+SELECT {
+	FONT-WEIGHT: normal; FONT-SIZE: 8pt; COLOR: #000000; FONT-FAMILY: Verdana, Tahoma, Arial; BACKGROUND-COLOR: #ffffff
+}
+TEXTAREA {
+	BORDER-RIGHT: #7f9db9 1px solid; BORDER-TOP: #7f9db9 1px solid; FONT-WEIGHT: normal; FONT-SIZE: 8pt; BORDER-LEFT: #7f9db9 1px solid; COLOR: black; BORDER-BOTTOM: #7f9db9 1px solid; FONT-FAMILY: Verdana, Tahoma, Arial; BACKGROUND-COLOR: #ffffff
+}
+.TEXTBOX_BLUE {
+	BORDER-RIGHT: #7f9db9 1px solid; BORDER-TOP: #7f9db9 1px solid; FONT-WEIGHT: normal; FONT-SIZE: 8pt; BORDER-LEFT: #7f9db9 1px solid; COLOR: black; BORDER-BOTTOM: #7f9db9 1px solid; FONT-FAMILY: Verdana, Tahoma, Arial; BACKGROUND-COLOR: #ffffff
+}
+.FILE {
+	BORDER-RIGHT: #7f9db9 1px solid; BORDER-TOP: #7f9db9 1px solid; FONT-WEIGHT: normal; FONT-SIZE: 8pt; BORDER-LEFT: #7f9db9 1px solid; COLOR: black; BORDER-BOTTOM: #7f9db9 1px solid; FONT-FAMILY: Verdana, Tahoma, Arial; BACKGROUND-COLOR: #ffffff
+}
+.SUBMIT_OLD {
+	BORDER-RIGHT: #7f9db9 1px solid; BORDER-TOP: #7f9db9 1px solid; FONT-WEIGHT: bold; FONT-SIZE: 8pt; BORDER-LEFT: #7f9db9 1px solid; CURSOR: hand; COLOR: black; BORDER-BOTTOM: #7f9db9 1px solid; FONT-FAMILY: Verdana, Tahoma, Arial; BACKGROUND-COLOR: #cadeee
+}
+.reset {
+	BORDER-RIGHT: #7f9db9 1px solid; BORDER-TOP: #7f9db9 1px solid; FONT-WEIGHT: bold; FONT-SIZE: 8pt; BORDER-LEFT: #7f9db9 1px solid; CURSOR: hand; COLOR: black; BORDER-BOTTOM: #7f9db9 1px solid; FONT-FAMILY: Verdana, Tahoma, Arial; BACKGROUND-COLOR: #ffcc99
+}
+TABLE {
+	sbackground-color: white
+}
+TABLE.admin {
+	BACKGROUND-COLOR: #f7f7f7
+}
+TABLE.Menu {
+	BACKGROUND-COLOR: #ce9f31
+}
+TABLE.Border {
+	BORDER-RIGHT: #cccccc 1px solid; PADDING-RIGHT: 5px; BORDER-TOP: #cccccc 1px solid; PADDING-LEFT: 5px; PADDING-BOTTOM: 5px; BORDER-LEFT: #cccccc 1px solid; PADDING-TOP: 5px; BORDER-BOTTOM: #cccccc 1px solid; xBORDER-BOTTOM: #7f9db9 1px solid
+}
+TABLE.headtable {
+	FILTER: progid:DXImageTransform.Microsoft.Gradient(GradientType=0,StartColorStr='#ffffffff',EndColorStr='#8CC9EF')
+}
+TABLE.leftlogin {
+	FILTER: progid:DXImageTransform.Microsoft.Gradient(GradientType=0,StartColorStr='#8CC9EF',EndColorStr='#ffffffff')
+}
+TD.loginleftmenu {
+	BORDER-RIGHT: #ffffff 1px solid; PADDING-RIGHT: 10px; BORDER-TOP: #ffffff 1px solid; PADDING-LEFT: 10px; FONT-WEIGHT: bold; FONT-SIZE: 8pt; PADDING-BOTTOM: 3px; BORDER-LEFT: #ffffff 1px solid; COLOR: #ce2921; PADDING-TOP: 3px; BORDER-BOTTOM: #ffffff 1px solid; FONT-FAMILY: Verdana, Tahoma, Arial; BACKGROUND-COLOR: #c0c0c0; TEXT-DECORATION: none
+}
+TD.loginleftmenu_over {
+	BORDER-RIGHT: #7f9db9 1px solid; PADDING-RIGHT: 10px; BORDER-TOP: #7f9db9 1px solid; PADDING-LEFT: 10px; FONT-WEIGHT: bold; FONT-SIZE: 8pt; PADDING-BOTTOM: 3px; BORDER-LEFT: #7f9db9 1px solid; CURSOR: hand; COLOR: #326db1; PADDING-TOP: 3px; BORDER-BOTTOM: #7f9db9 1px solid; FONT-FAMILY: Verdana, Tahoma, Arial; TEXT-DECORATION: none
+}
+.cellheadp {
+	PADDING-RIGHT: 5px; PADDING-LEFT: 5px; FONT-WEIGHT: bold; FONT-SIZE: 10pt; FILTER: progid:DXImageTransform.Microsoft.Gradient(GradientType=0,StartColorStr='#CED274',EndColorStr='#B9BC49'); PADDING-BOTTOM: 2px; COLOR: #000000; PADDING-TOP: 2px; FONT-FAMILY: Tahoma, Arial; BACKGROUND-COLOR: #2d4930; TEXT-DECORATION: none
+}
+.cellhead {
+	PADDING-RIGHT: 5px; PADDING-LEFT: 5px; FONT-WEIGHT: bold; FONT-SIZE: 10pt; FILTER: progid:DXImageTransform.Microsoft.Gradient(GradientType=0,StartColorStr='#FDFBE7',EndColorStr='#A3CDD1'); COLOR: #000000; FONT-FAMILY: Tahoma, Arial; BACKGROUND-COLOR: #2d4930; TEXT-DECORATION: none
+}
+
+.cellheadHeader{
+	PADDING-RIGHT: 5px; PADDING-LEFT: 5px; FONT-WEIGHT: bold; FONT-SIZE: 10pt; FILTER: progid:DXImageTransform.Microsoft.Gradient(GradientType=0,StartColorStr='#E99BA4',EndColorStr='#FDF5F5'); COLOR: #000000; FONT-FAMILY: Tahoma, Arial; BACKGROUND-COLOR: #2d4930; TEXT-DECORATION: none
+}
+
+.cellhead_Menu {
+	PADDING-RIGHT: 5px; PADDING-LEFT: 5px; FONT-WEIGHT: bold; FONT-SIZE: 10pt; FILTER: progid:DXImageTransform.Microsoft.Gradient(GradientType=0,StartColorStr='#F7CBB0',EndColorStr='#B93B24'); COLOR: #000000; FONT-FAMILY: Tahoma, Arial; BACKGROUND-COLOR: #2d4930; TEXT-DECORATION: none
+}
+.marqueenews {
+	FONT-SIZE: 8pt; COLOR: #d1c2d7; FONT-FAMILY: Verdana
+}
+A.footerlinks:link {
+	FONT-SIZE: 7pt; COLOR: black; FONT-FAMILY: Verdana, Tahoma, Arial
+}
+A.footerlinks:active {
+	FONT-SIZE: 7pt; COLOR: black; FONT-FAMILY: Verdana, Tahoma, Arial
+}
+A.footerlinks:visited {
+	FONT-SIZE: 7pt; COLOR: black; FONT-FAMILY: Verdana, Tahoma, Arial
+}
+A.footerlinks:hover {
+	FONT-SIZE: 7pt; COLOR: #808080; FONT-FAMILY: Verdana
+}
+TR {
+	FONT-SIZE: 8pt; COLOR: #000000; FONT-FAMILY: Verdana, Tahoma, Arial
+}
+TD.normal {
+	BORDER-RIGHT: #7bb5de 1px solid; BORDER-TOP: #7bb5de 1px solid; FONT-WEIGHT: bold; FONT-SIZE: 8pt; BORDER-LEFT: #7bb5de 1px solid; COLOR: black; BORDER-BOTTOM: #7bb5de 1px solid; FONT-FAMILY: Verdana, Tahoma, Arial; BACKGROUND-COLOR: #c6e7f7
+}
+TD.normalmover {
+	BORDER-RIGHT: #f78c7b 1px solid; BORDER-TOP: #f78c7b 1px solid; FONT-WEIGHT: bold; FONT-SIZE: 8pt; BORDER-LEFT: #f78c7b 1px solid; COLOR: blue; BORDER-BOTTOM: #f78c7b 1px solid; FONT-FAMILY: Verdana, Tahoma, Arial; BACKGROUND-COLOR: #fcd5cf
+}
+TR.normal {
+	BORDER-RIGHT: #c0d935 1px solid; BORDER-TOP: #c0d935 1px solid; FONT-WEIGHT: bold; FONT-SIZE: 8pt; BORDER-LEFT: #c0d935 1px solid; COLOR: black; BORDER-BOTTOM: #c0d935 1px solid; FONT-FAMILY: Verdana, Tahoma, Arial; BACKGROUND-COLOR: #acd18b
+}
+A.popupwin {
+	FONT-WEIGHT: bold; FONT-SIZE: 8pt; COLOR: #0066cc; FONT-FAMILY: Verdana, Tahoma, Arial; TEXT-DECORATION: none
+}
+A.detail {
+	FONT-WEIGHT: bold; FONT-SIZE: 8pt; COLOR: #800000; FONT-FAMILY: Verdana, Tahoma, Arial; TEXT-DECORATION: none
+}
+SPAN.shadow {
+	FONT-WEIGHT: bold; FONT-SIZE: 8pt; FILTER: progid:DXImageTransform.Microsoft.Shadow(direction=135,color=#000000,strength=2); CURSOR: hand; COLOR: white; FONT-FAMILY: Verdana, Tahoma, Arial; POSITION: absolute; TEXT-DECORATION: none
+}
+A.hh {
+	FONT-WEIGHT: bold; FONT-SIZE: 8pt; COLOR: red; FONT-FAMILY: Verdana, Tahoma, Arial; TEXT-DECORATION: none
+}
+P.proser {
+	BORDER-RIGHT: #7f9db9 1px solid; PADDING-RIGHT: 4pt; BORDER-TOP: #7f9db9 1px solid; PADDING-LEFT: 4pt; FONT-WEIGHT: bold; FONT-SIZE: 10pt; BORDER-LEFT: #7f9db9 1px solid; COLOR: red; BORDER-BOTTOM: #7f9db9 1px solid; FONT-FAMILY: Tahoma, Arial; BACKGROUND-COLOR: #ffeaff; TEXT-DECORATION: none
+}
+P.admin {
+	BORDER-RIGHT: #7f9db9 1px solid; PADDING-RIGHT: 4pt; BORDER-TOP: #7f9db9 1px solid; PADDING-LEFT: 4pt; FONT-SIZE: 10pt; BORDER-LEFT: #7f9db9 1px solid; COLOR: blue; BORDER-BOTTOM: #7f9db9 1px solid; FONT-FAMILY: Tahoma, Arial; BACKGROUND-COLOR: #ffffcc; TEXT-DECORATION: none
+}
+PRE.proser {
+	BORDER-RIGHT: #7f9db9 1px solid; PADDING-RIGHT: 4pt; BORDER-TOP: #7f9db9 1px solid; PADDING-LEFT: 4pt; FONT-WEIGHT: bold; FONT-SIZE: 10pt; BORDER-LEFT: #7f9db9 1px solid; COLOR: #ff6600; BORDER-BOTTOM: #7f9db9 1px solid; FONT-FAMILY: Tahoma, Arial; BACKGROUND-COLOR: #ffffcc; TEXT-DECORATION: none
+}
+.wht_btn {
+	FONT-SIZE: 8pt; COLOR: #abcabc; FONT-STYLE: normal; FONT-FAMILY: Verdana, Tahoma, Arial; TEXT-DECORATION: none
+}
+.red_btn {
+	FONT-WEIGHT: bold; FONT-SIZE: 8pt; COLOR: red; FONT-STYLE: normal; FONT-FAMILY: Verdana, Tahoma, Arial; TEXT-DECORATION: none
+}
+.page_inf {
+	FONT-SIZE: 7pt; COLOR: #006699; FONT-STYLE: normal; FONT-FAMILY: Verdana, Tahoma, Arial; TEXT-DECORATION: none
+}
+A.enter:link {
+	FONT-WEIGHT: bold; FONT-SIZE: 12pt; COLOR: #800000; FONT-FAMILY: Verdana, Tahoma, Arial; TEXT-DECORATION: none
+}
+A.enter:visited {
+	FONT-WEIGHT: bold; FONT-SIZE: 12pt; COLOR: #800000; FONT-FAMILY: Verdana, Tahoma, Arial; TEXT-DECORATION: none
+}
+A.enter:active {
+	FONT-WEIGHT: bold; FONT-SIZE: 12pt; COLOR: #005680; FONT-FAMILY: Verdana, Tahoma, Arial; TEXT-DECORATION: none
+}
+A.enter:hover {
+	FONT-WEIGHT: bold; FONT-SIZE: 10px; COLOR: #666666; FONT-FAMILY: Verdana, Tahoma, Arial; TEXT-DECORATION: none; style1: Verdana, Arial, Helvetica, sans-serif
+}
+.style2 {
+	FONT-SIZE: 10px; COLOR: #0099cc; FONT-FAMILY: Verdana, Arial, Helvetica, sans-serif
+}
+.style3 {
+	FONT-SIZE: 10px; FONT-FAMILY: Verdana, Arial, Helvetica, sans-serif
+}
+.legdetailupper {
+	BACKGROUND-COLOR: #daeefa
+}
+.cellmiddle {
+	FONT-WEIGHT: bold; FONT-SIZE: 10pt; COLOR: white; FONT-FAMILY: tahoma; BACKGROUND-COLOR: #0468cd
+}
+.cellupper {
+	FONT-WEIGHT: bold; FONT-SIZE: 10pt; COLOR: #ffffff; FONT-FAMILY: tahoma; BACKGROUND-COLOR: #a88137
+}
+.cellsponser {
+	FONT-WEIGHT: bold; FONT-SIZE: 10pt; COLOR: #927e25; FONT-FAMILY: tahoma; BACKGROUND-COLOR: #e9dea9
+}
+TD.actual {
+	FONT-SIZE: 10px; COLOR: #666666; FONT-FAMILY: Verdana, Arial, Helvetica, sans-serif
+}
+TD.head {
+	FONT-WEIGHT: bold; FONT-SIZE: 10px; COLOR: #666666; FONT-FAMILY: Verdana, Arial, Helvetica, sans-serif
+}
+TD.justhead {
+	FONT-WEIGHT: bold; FONT-SIZE: 10px; COLOR: #0000ff; FONT-FAMILY: Verdana, Arial, Helvetica, sans-serif
+}
+.style7 {
+	FONT-WEIGHT: bold; FONT-SIZE: 12px; COLOR: #3399ff; FONT-FAMILY: Verdana, Arial, Helvetica, sans-serif
+}
+.style17 {
+	FONT-SIZE: 10px; COLOR: #666666; FONT-FAMILY: Verdana, Arial, Helvetica, sans-serif
+}
+.cellhead1 {
+	PADDING-RIGHT: 5px; PADDING-LEFT: 5px; FONT-WEIGHT: bold; FONT-SIZE: 10pt; FILTER: progid:DXImageTransform.Microsoft.Gradient(GradientType=0,StartColorStr='#E3C469',EndColorStr='#A88137'); COLOR: #ffffff; FONT-FAMILY: Tahoma, Arial; BACKGROUND-COLOR: #2d4930; TEXT-DECORATION: none
+}
+.cellhead12 {
+	PADDING-RIGHT: 5px; PADDING-LEFT: 5px; FONT-WEIGHT: bold; FONT-SIZE: 10pt; FILTER: progid:DXImageTransform.Microsoft.Gradient(GradientType=0,StartColorStr='#F2F9FD',EndColorStr='#008000'); COLOR: #156091; FONT-FAMILY: Tahoma, Arial; BACKGROUND-COLOR: #2d4930; TEXT-DECORATION: none
+}
+TABLE.Border {
+	BORDER-RIGHT: #cccccc 1px solid; PADDING-RIGHT: 5px; BORDER-TOP: #cccccc 1px solid; PADDING-LEFT: 5px; PADDING-BOTTOM: 5px; BORDER-LEFT: #cccccc 1px solid; PADDING-TOP: 5px; BORDER-BOTTOM: #cccccc 1px solid; BACKGROUND-COLOR: #f2f9fd; xBORDER-BOTTOM: #7f9db9 1px solid
+}
